@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MusicAdvisorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-23T01:17:30" hostname="LAPTOP-8B9EFSBT" time="55.89">
+  <properties/>
+  <testcase name="start" classname="MusicAdvisorTest" time="55.89"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+http://127.0.0.1:45678
+http://127.0.0.1:56789
+> auth
+Use this link to request the access code:
+https://accounts.spotify.com/authorize?client_id=80be6d61403e43a9af639a464ee12462&redirect_uri=http://localhost:8080&response_type=code
+waiting for code...
+Tester: making requests to redirect uri: http://localhost:8080
+Tester: done request 1: Authorization code not found. Try again.
+Tester: done request 2: Authorization code not found. Try again.
+code received
+Tester: done request 3: Got the code. Return back to your program.
+making http request for access_token...
+response:
+{"access_token":"456456","token_type":"Bearer","expires_in":3600,"refresh_token":"567567","scope":""}
+---SUCCESS---
+> exit
+---GOODBYE!---
+?[1;31m
+Start test 2?[0m
+http://127.0.0.1:45678
+http://127.0.0.1:56789
+> auth
+Use this link to request the access code:
+https://accounts.spotify.com/authorize?client_id=80be6d61403e43a9af639a464ee12462&redirect_uri=http://localhost:8080&response_type=code
+waiting for code...
+Tester: making requests to redirect uri: http://localhost:8080
+Tester: done request 1: Authorization code not found. Try again.
+Tester: done request 2: Authorization code not found. Try again.
+code received
+Tester: done request 3: Got the code. Return back to your program.
+making http request for access_token...
+response:
+{"access_token":"456456","token_type":"Bearer","expires_in":3600,"refresh_token":"567567","scope":""}
+---SUCCESS---
+> categories
+Top Lists
+Super Mood
+Party Time
+> exit
+---GOODBYE!---
+?[1;31m
+Start test 3?[0m
+http://127.0.0.1:45678
+http://127.0.0.1:56789
+> categories
+Please, provide access for application.
+> exit
+---GOODBYE!---
+?[1;31m
+Start test 4?[0m
+http://127.0.0.1:45678
+http://127.0.0.1:56789
+> auth
+Use this link to request the access code:
+https://accounts.spotify.com/authorize?client_id=80be6d61403e43a9af639a464ee12462&redirect_uri=http://localhost:8080&response_type=code
+waiting for code...
+Tester: making requests to redirect uri: http://localhost:8080
+Tester: done request 1: Authorization code not found. Try again.
+Tester: done request 2: Authorization code not found. Try again.
+code received
+Tester: done request 3: Got the code. Return back to your program.
+making http request for access_token...
+response:
+{"access_token":"456456","token_type":"Bearer","expires_in":3600,"refresh_token":"567567","scope":""}
+---SUCCESS---
+> featured
+{"message":"Monday morning music, coming right up!","playlists":{"href":"https://api.spotify.com/v1/browse/featured-playlists?offset=0&limit=20","items":[{"collaborative":false,"external_urls":{"spotify":"http://open.spotify.com/user/spotify/playlist/6ftJBzU2LLQcaKefMi7ee7"},"href":"https://api.spotify.com/v1/users/spotify/playlists/6ftJBzU2LLQcaKefMi7ee7","id":"6ftJBzU2LLQcaKefMi7ee7","images":[{"height":300,"url":"https://i.scdn.co/image/7bd33c65ebd1e45975bbcbbf513bafe272f033c7","width":300}],"name":"Monday Morning Mood","owner":{"external_urls":{"spotify":"http://open.spotify.com/user/spotify"},"href":"https://api.spotify.com/v1/users/spotify","id":"spotify","type":"user","uri":"spotify:user:spotify"},"public":null,"snapshot_id":"WwGvSIVUkUvGvqjgj/bQHlRycYmJ2TkoIxYfoalWlmIZT6TvsgvGMgtQ2dGbkrAW","tracks":{"href":"https://api.spotify.com/v1/users/spotify/playlists/6ftJBzU2LLQcaKefMi7ee7/tracks","total":245},"type":"playlist","uri":"spotify:user:spotify:playlist:6ftJBzU2LLQcaKefMi7ee7"},{"collaborative":false,"external_urls":{"spotify":"http://open.spotify.com/user/spotify__sverige/playlist/4uOEx4OUrkoGNZoIlWMUbO"},"href":"https://api.spotify.com/v1/users/spotify__sverige/playlists/4uOEx4OUrkoGNZoIlWMUbO","id":"4uOEx4OUrkoGNZoIlWMUbO","images":[{"height":300,"url":"https://i.scdn.co/image/24aa1d1b491dd529b9c03392f350740ed73438d8","width":300}],"name":"Upp och hoppa!","owner":{"external_urls":{"spotify":"http://open.spotify.com/user/spotify__sverige"},"href":"https://api.spotify.com/v1/users/spotify__sverige","id":"spotify__sverige","type":"user","uri":"spotify:user:spotify__sverige"},"public":null,"snapshot_id":"0j9Rcbt2KtCXEXKtKy/tnSL5r4byjDBOIVY1dn4S6GV73EEUgNuK2hU+QyDuNnXz","tracks":{"href":"https://api.spotify.com/v1/users/spotify__sverige/playlists/4uOEx4OUrkoGNZoIlWMUbO/tracks","total":38},"type":"playlist","uri":"spotify:user:spotify__sverige:playlist:4uOEx4OUrkoGNZoIlWMUbO"}],"limit":20,"next":null,"offset":0,"previous":null,"total":2}}
+{"href":"https://api.spotify.com/v1/browse/featured-playlists?offset=0&limit=20","items":[{"collaborative":false,"external_urls":{"spotify":"http://open.spotify.com/user/spotify/playlist/6ftJBzU2LLQcaKefMi7ee7"},"href":"https://api.spotify.com/v1/users/spotify/playlists/6ftJBzU2LLQcaKefMi7ee7","id":"6ftJBzU2LLQcaKefMi7ee7","images":[{"height":300,"url":"https://i.scdn.co/image/7bd33c65ebd1e45975bbcbbf513bafe272f033c7","width":300}],"name":"Monday Morning Mood","owner":{"external_urls":{"spotify":"http://open.spotify.com/user/spotify"},"href":"https://api.spotify.com/v1/users/spotify","id":"spotify","type":"user","uri":"spotify:user:spotify"},"public":null,"snapshot_id":"WwGvSIVUkUvGvqjgj/bQHlRycYmJ2TkoIxYfoalWlmIZT6TvsgvGMgtQ2dGbkrAW","tracks":{"href":"https://api.spotify.com/v1/users/spotify/playlists/6ftJBzU2LLQcaKefMi7ee7/tracks","total":245},"type":"playlist","uri":"spotify:user:spotify:playlist:6ftJBzU2LLQcaKefMi7ee7"},{"collaborative":false,"external_urls":{"spotify":"http://open.spotify.com/user/spotify__sverige/playlist/4uOEx4OUrkoGNZoIlWMUbO"},"href":"https://api.spotify.com/v1/users/spotify__sverige/playlists/4uOEx4OUrkoGNZoIlWMUbO","id":"4uOEx4OUrkoGNZoIlWMUbO","images":[{"height":300,"url":"https://i.scdn.co/image/24aa1d1b491dd529b9c03392f350740ed73438d8","width":300}],"name":"Upp och hoppa!","owner":{"external_urls":{"spotify":"http://open.spotify.com/user/spotify__sverige"},"href":"https://api.spotify.com/v1/users/spotify__sverige","id":"spotify__sverige","type":"user","uri":"spotify:user:spotify__sverige"},"public":null,"snapshot_id":"0j9Rcbt2KtCXEXKtKy/tnSL5r4byjDBOIVY1dn4S6GV73EEUgNuK2hU+QyDuNnXz","tracks":{"href":"https://api.spotify.com/v1/users/spotify__sverige/playlists/4uOEx4OUrkoGNZoIlWMUbO/tracks","total":38},"type":"playlist","uri":"spotify:user:spotify__sverige:playlist:4uOEx4OUrkoGNZoIlWMUbO"}],"limit":20,"next":null,"offset":0,"previous":null,"total":2}
+Monday Morning Mood
+http://open.spotify.com/user/spotify/playlist/6ftJBzU2LLQcaKefMi7ee7
+
+Upp och hoppa!
+http://open.spotify.com/user/spotify__sverige/playlist/4uOEx4OUrkoGNZoIlWMUbO
+
+> exit
+---GOODBYE!---
+?[1;31m
+Start test 5?[0m
+http://127.0.0.1:45678
+http://127.0.0.1:56789
+> featured
+Please, provide access for application.
+> exit
+---GOODBYE!---
+?[1;31m
+Start test 6?[0m
+http://127.0.0.1:45678
+http://127.0.0.1:56789
+> auth
+Use this link to request the access code:
+https://accounts.spotify.com/authorize?client_id=80be6d61403e43a9af639a464ee12462&redirect_uri=http://localhost:8080&response_type=code
+waiting for code...
+Tester: making requests to redirect uri: http://localhost:8080
+Tester: done request 1: Authorization code not found. Try again.
+Tester: done request 2: Authorization code not found. Try again.
+code received
+Tester: done request 3: Got the code. Return back to your program.
+making http request for access_token...
+response:
+{"access_token":"456456","token_type":"Bearer","expires_in":3600,"refresh_token":"567567","scope":""}
+---SUCCESS---
+> new
+Runnin'
+[Pharrell Williams]
+https://open.spotify.com/album/5ZX4m5aVSmWQ5iHAPQpT71
+
+Sneakin'
+[Drake2, Drake3]
+https://open.spotify.com/album/0geTzdk2InlqIoB16fW9Nd
+
+> exit
+---GOODBYE!---
+?[1;31m
+Start test 7?[0m
+http://127.0.0.1:45678
+http://127.0.0.1:56789
+> new
+Please, provide access for application.
+> exit
+---GOODBYE!---
+?[1;31m
+Start test 8?[0m
+http://127.0.0.1:45678
+http://127.0.0.1:56789
+> auth
+Use this link to request the access code:
+https://accounts.spotify.com/authorize?client_id=80be6d61403e43a9af639a464ee12462&redirect_uri=http://localhost:8080&response_type=code
+waiting for code...
+Tester: making requests to redirect uri: http://localhost:8080
+Tester: done request 1: Authorization code not found. Try again.
+Tester: done request 2: Authorization code not found. Try again.
+code received
+Tester: done request 3: Got the code. Return back to your program.
+making http request for access_token...
+response:
+{"access_token":"456456","token_type":"Bearer","expires_in":3600,"refresh_token":"567567","scope":""}
+---SUCCESS---
+> playlists Party Time
+Test unpredictable error message
+Noite Eletronica
+http://open.spotify.com/user/spotifybrazilian/playlist/4k7EZPI3uKMz4aRRrLVfen
+
+Festa Indie
+http://open.spotify.com/user/spotifybrazilian/playlist/4HZh0C9y80GzHDbHZyX770
+
+> exit
+---GOODBYE!---
+?[1;31m
+Start test 9?[0m
+http://127.0.0.1:45678
+http://127.0.0.1:56789
+> playlists Party Time
+Please, provide access for application.
+> exit
+---GOODBYE!---
+?[1;31m
+Start test 10?[0m
+http://127.0.0.1:45678
+http://127.0.0.1:56789
+> auth
+Use this link to request the access code:
+https://accounts.spotify.com/authorize?client_id=80be6d61403e43a9af639a464ee12462&redirect_uri=http://localhost:8080&response_type=code
+waiting for code...
+Tester: making requests to redirect uri: http://localhost:8080
+Tester: done request 1: Authorization code not found. Try again.
+Tester: done request 2: Authorization code not found. Try again.
+code received
+Tester: done request 3: Got the code. Return back to your program.
+making http request for access_token...
+response:
+{"access_token":"456456","token_type":"Bearer","expires_in":3600,"refresh_token":"567567","scope":""}
+---SUCCESS---
+> playlists Top Lists
+Test unpredictable error message
+> exit
+---GOODBYE!---
+?[1;31m
+Start test 11?[0m
+http://127.0.0.1:45678
+http://127.0.0.1:56789
+> auth
+Use this link to request the access code:
+https://accounts.spotify.com/authorize?client_id=80be6d61403e43a9af639a464ee12462&redirect_uri=http://localhost:8080&response_type=code
+waiting for code...
+Tester: making requests to redirect uri: http://localhost:8080
+Tester: done request 1: Authorization code not found. Try again.
+Tester: done request 2: Authorization code not found. Try again.
+code received
+Tester: done request 3: Got the code. Return back to your program.
+making http request for access_token...
+response:
+{"access_token":"456456","token_type":"Bearer","expires_in":3600,"refresh_token":"567567","scope":""}
+---SUCCESS---
+> playlists Party Time
+Test unpredictable error message
+Noite Eletronica
+http://open.spotify.com/user/spotifybrazilian/playlist/4k7EZPI3uKMz4aRRrLVfen
+
+Festa Indie
+http://open.spotify.com/user/spotifybrazilian/playlist/4HZh0C9y80GzHDbHZyX770
+
+> exit
+---GOODBYE!---
+]]></system-out>
+  <system-err><![CDATA[java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsJsonObject()" because "playlists" is null
+	at advisor.Main.getInput(Main.java:309)
+	at advisor.Main.getToken(Main.java:384)
+	at advisor.Main$1.handle(Main.java:122)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:77)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:80)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:692)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:77)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:664)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:159)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:442)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:408)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+]]></system-err>
+</testsuite>
